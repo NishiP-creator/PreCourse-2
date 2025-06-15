@@ -1,4 +1,9 @@
 # Node class  
+"""
+Time Complexity: O(n)
+Space Complexity: O(1) --> printMiddle()
+"""
+
 class Node:  
     # Function to initialise the node object  
     def __init__(self, data):  
