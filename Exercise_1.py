@@ -7,6 +7,8 @@
 """
 Time Complexity: O(Logn) where n = number of elements in the array
 Space Complexity: O(1)
+
+Edge cases: empty list, one element in the list, first or last element, element not present
 """
 def binarySearch(arr, l, r, x): 
   #write your code here
@@ -25,6 +27,12 @@ def binarySearch(arr, l, r, x):
     
 # Test array 
 arr = [ 2, 3, 4, 10, 40 ] 
+#arr = []
+#arr = [10]
+#arr = [ 2, 3, 4, 10, 40 ] 
+#x = 2
+#arr = [ 2, 3, 4, 10, 40 ] 
+#x = 40
 x = 10
   
 # Function call 
