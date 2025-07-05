@@ -21,7 +21,7 @@ A balanced pivot splits the array roughly in half each level → tree depth ≈ 
 # This function is same in both iterative and recursive
 def partition(arr, l, h):
   #write your code here
-  pivot = arr[h]
+  pivot = arr[h] #pivot is last element
   i = l - 1
   
   for j in range(l, h): # pivot is at the end --> don't include it in the loop
