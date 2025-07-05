@@ -40,7 +40,7 @@ def quickSortIterative(arr, l, h):
   
   while stack:
     l, h = stack.pop()
-    if l < h:
+    if l < h: # if l == h, it is only one element and it is already sorted.
       pivot = partition(arr, l, h)
       
       if pivot + 1 < h: # RHS sort
